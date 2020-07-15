@@ -1,19 +1,17 @@
 //
-//  TKSecondSonVC.swift
+//  TKPFPOViewController+Add.swift
 //  SwiftUsage
 //
 //  Created by hello on 2020/7/15.
 //  Copyright © 2020 TK. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class TKSecondSonVC: TKPFPOViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.defaultProperty = "缺省"
+extension TKAccessControlSymbol {
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
         // public
         self.publicProperty = "public usage"
@@ -22,6 +20,6 @@ class TKSecondSonVC: TKPFPOViewController {
         self.openProperty = "open usage"
         
         // fileprivate、private 属性无法引用
-        
     }
+    
 }

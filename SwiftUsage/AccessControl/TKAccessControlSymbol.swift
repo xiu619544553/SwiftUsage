@@ -1,5 +1,5 @@
 //
-//  TKPFPOViewController.swift
+//  TKAccessControlSymbol.swift
 //  SwiftUsage
 //
 //  Created by hello on 2020/7/15.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class TKPFPOViewController: UIViewController {
+// 访问控制修饰符
+class TKAccessControlSymbol: UIViewController {
 
     // MARK: Property
     
-    // 缺省控制权限是 public
+    // 未指定访问级别默认为 internal
     var defaultProperty: String?
     open var openProperty: String?
     public var publicProperty: String?
@@ -27,7 +28,7 @@ class TKPFPOViewController: UIViewController {
     }
 }
 
-class TKFirstSon: TKPFPOViewController {
+class TKFirstSon: TKAccessControlSymbol {
     
     override func viewDidLoad() {
         super.viewDidLoad()

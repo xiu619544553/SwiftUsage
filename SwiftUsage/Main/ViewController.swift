@@ -14,13 +14,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     // MARK: - Private property
     lazy var dataArray: Array<Dictionary<String, String>> = {
-        var temp: Array<Dictionary<String, String>> = NSMutableArray.init() as! Array<Dictionary<String, String>>
         
-        temp.append(["class" : "TKPFPOViewController", "title" : "private、fileprivate、public、open使用"])
+        var temp: Array<Dictionary<String, String>> = NSMutableArray.init() as! Array<Dictionary<String, String>>
+        temp.append(["class" : "TKAccessControlSymbol", "title" : "Swift 访问控制修饰符"])
         
         return temp
     }()
-//    private var dataArray: Array<Dictionary<String, String>> = NSMutableArray.init() as! Array<Dictionary>
     
     lazy private var tableView: UITableView = {
         let temp = UITableView.init(frame: self.view.bounds, style: .plain)
@@ -36,21 +35,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        self.view.backgroundColor = UIColor.yellow
-        
+        self.title = "Swift 使用"
+        self.view.backgroundColor = UIColor.white
         self.view.addSubview(self.tableView)
         self.tableView.reloadData()
-        
-//        let pfpoVC: TKPFPOViewController = TKPFPOViewController.init()
-//        pfpoVC.defaultProperty = "缺省"
-//        pfpoVC.publicProperty = "public usage"
-//        pfpoVC.openProperty = "open usage"
-//        // fileprivate、private 修饰的属性和方法无法调用
-//
-//        self.navigationController?.pushViewController(pfpoVC, animated: true)
     }
-
 
     // MARK: - UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -58,6 +47,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let dic: Dictionary = self.dataArray[indexPath.row]
         
+        // 命名空间
         let nameSpace: String? = (Bundle.main.infoDictionary!["CFBundleExecutable"] as! String)
         let className: String? = dic["class"]!
         
