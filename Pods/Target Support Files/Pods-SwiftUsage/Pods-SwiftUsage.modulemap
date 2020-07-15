@@ -1,0 +1,6 @@
+framework module Pods_SwiftUsage {
+  umbrella header "Pods-SwiftUsage-umbrella.h"
+
+  export *
+  module * { export * }
+}

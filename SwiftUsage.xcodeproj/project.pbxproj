@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE3EF79624BD48670056D479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EF79524BD48670056D479 /* AppDelegate.swift */; };
-		CE3EF79824BD48670056D479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EF79724BD48670056D479 /* SceneDelegate.swift */; };
-		CE3EF79A24BD48670056D479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EF79924BD48670056D479 /* ViewController.swift */; };
+		9B053794023F2DB785F54D33 /* Pods_SwiftUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283F491D0E0169C2C8327897 /* Pods_SwiftUsage.framework */; };
+		CE15C69524BEA45500D25BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EF79524BD48670056D479 /* AppDelegate.swift */; };
+		CE15C69624BEA45500D25BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EF79924BD48670056D479 /* ViewController.swift */; };
+		CE15C69724BEA45500D25BC3 /* TKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C69324BEA26100D25BC3 /* TKNavigationController.swift */; };
+		CE15C69824BEA45500D25BC3 /* TKPFPOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C68A24BE9A8700D25BC3 /* TKPFPOViewController.swift */; };
+		CE15C69924BEA45500D25BC3 /* TKPFPOViewController+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C68E24BE9C1800D25BC3 /* TKPFPOViewController+Add.swift */; };
+		CE15C69A24BEA45500D25BC3 /* TKSecondSonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C68C24BE9B2600D25BC3 /* TKSecondSonVC.swift */; };
+		CE15C69B24BEA45500D25BC3 /* TKVLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15C68724BE923700D25BC3 /* TKVLViewController.swift */; };
 		CE3EF79D24BD48670056D479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EF79B24BD48670056D479 /* Main.storyboard */; };
 		CE3EF79F24BD486C0056D479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3EF79E24BD486C0056D479 /* Assets.xcassets */; };
 		CE3EF7A224BD486C0056D479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EF7A024BD486C0056D479 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15098B33776A14223F7F3B14 /* Pods-SwiftUsage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUsage.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUsage/Pods-SwiftUsage.debug.xcconfig"; sourceTree = "<group>"; };
+		283F491D0E0169C2C8327897 /* Pods_SwiftUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE15C68724BE923700D25BC3 /* TKVLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKVLViewController.swift; sourceTree = "<group>"; };
+		CE15C68A24BE9A8700D25BC3 /* TKPFPOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKPFPOViewController.swift; sourceTree = "<group>"; };
+		CE15C68C24BE9B2600D25BC3 /* TKSecondSonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKSecondSonVC.swift; sourceTree = "<group>"; };
+		CE15C68E24BE9C1800D25BC3 /* TKPFPOViewController+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TKPFPOViewController+Add.swift"; sourceTree = "<group>"; };
+		CE15C69324BEA26100D25BC3 /* TKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKNavigationController.swift; sourceTree = "<group>"; };
 		CE3EF79224BD48670056D479 /* SwiftUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3EF79524BD48670056D479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE3EF79724BD48670056D479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE3EF79924BD48670056D479 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE3EF79C24BD48670056D479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3EF79E24BD486C0056D479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3EF7A124BD486C0056D479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3EF7A324BD486C0056D479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6F0D022F7434B344D58FE5 /* Pods-SwiftUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUsage.release.xcconfig"; path = "Target Support Files/Pods-SwiftUsage/Pods-SwiftUsage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B053794023F2DB785F54D33 /* Pods_SwiftUsage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5017EABC5514AC43E0D8DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15098B33776A14223F7F3B14 /* Pods-SwiftUsage.debug.xcconfig */,
+				DB6F0D022F7434B344D58FE5 /* Pods-SwiftUsage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE15C68624BE920100D25BC3 /* var_let */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C68724BE923700D25BC3 /* TKVLViewController.swift */,
+			);
+			path = var_let;
+			sourceTree = "<group>";
+		};
+		CE15C68924BE9A6800D25BC3 /* Private_filePrivate_public_open */ = {
+			isa = PBXGroup;
+			children = (
+				CE15C68A24BE9A8700D25BC3 /* TKPFPOViewController.swift */,
+				CE15C68E24BE9C1800D25BC3 /* TKPFPOViewController+Add.swift */,
+				CE15C68C24BE9B2600D25BC3 /* TKSecondSonVC.swift */,
+			);
+			path = Private_filePrivate_public_open;
+			sourceTree = "<group>";
+		};
+		CE15C69224BEA23900D25BC3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EF79524BD48670056D479 /* AppDelegate.swift */,
+				CE3EF79924BD48670056D479 /* ViewController.swift */,
+				CE15C69324BEA26100D25BC3 /* TKNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		CE3EF78924BD48670056D479 = {
 			isa = PBXGroup;
 			children = (
 				CE3EF79424BD48670056D479 /* SwiftUsage */,
 				CE3EF79324BD48670056D479 /* Products */,
+				A5017EABC5514AC43E0D8DE4 /* Pods */,
+				EA714A9D61B491B9DBC229F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,23 @@
 		CE3EF79424BD48670056D479 /* SwiftUsage */ = {
 			isa = PBXGroup;
 			children = (
-				CE3EF79524BD48670056D479 /* AppDelegate.swift */,
-				CE3EF79724BD48670056D479 /* SceneDelegate.swift */,
-				CE3EF79924BD48670056D479 /* ViewController.swift */,
+				CE15C69224BEA23900D25BC3 /* Main */,
+				CE15C68924BE9A6800D25BC3 /* Private_filePrivate_public_open */,
+				CE15C68624BE920100D25BC3 /* var_let */,
 				CE3EF79B24BD48670056D479 /* Main.storyboard */,
 				CE3EF79E24BD486C0056D479 /* Assets.xcassets */,
 				CE3EF7A024BD486C0056D479 /* LaunchScreen.storyboard */,
 				CE3EF7A324BD486C0056D479 /* Info.plist */,
 			);
 			path = SwiftUsage;
+			sourceTree = "<group>";
+		};
+		EA714A9D61B491B9DBC229F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283F491D0E0169C2C8327897 /* Pods_SwiftUsage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3EF7A624BD486C0056D479 /* Build configuration list for PBXNativeTarget "SwiftUsage" */;
 			buildPhases = (
+				BE99E9B9AD4E7904C16487A0 /* [CP] Check Pods Manifest.lock */,
 				CE3EF78E24BD48670056D479 /* Sources */,
 				CE3EF78F24BD48670056D479 /* Frameworks */,
 				CE3EF79024BD48670056D479 /* Resources */,
+				38555975F09A4186E58AA93F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,6 +155,7 @@
 		CE3EF78A24BD48670056D479 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TK;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = TK;
@@ -133,14 +196,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38555975F09A4186E58AA93F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUsage/Pods-SwiftUsage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUsage/Pods-SwiftUsage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUsage/Pods-SwiftUsage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE99E9B9AD4E7904C16487A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUsage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3EF78E24BD48670056D479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3EF79A24BD48670056D479 /* ViewController.swift in Sources */,
-				CE3EF79624BD48670056D479 /* AppDelegate.swift in Sources */,
-				CE3EF79824BD48670056D479 /* SceneDelegate.swift in Sources */,
+				CE15C69524BEA45500D25BC3 /* AppDelegate.swift in Sources */,
+				CE15C69624BEA45500D25BC3 /* ViewController.swift in Sources */,
+				CE15C69724BEA45500D25BC3 /* TKNavigationController.swift in Sources */,
+				CE15C69824BEA45500D25BC3 /* TKPFPOViewController.swift in Sources */,
+				CE15C69924BEA45500D25BC3 /* TKPFPOViewController+Add.swift in Sources */,
+				CE15C69A24BEA45500D25BC3 /* TKSecondSonVC.swift in Sources */,
+				CE15C69B24BEA45500D25BC3 /* TKVLViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,13 +325,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -270,22 +380,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		CE3EF7A724BD486C0056D479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15098B33776A14223F7F3B14 /* Pods-SwiftUsage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
 				INFOPLIST_FILE = SwiftUsage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +413,13 @@
 		};
 		CE3EF7A824BD486C0056D479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6F0D022F7434B344D58FE5 /* Pods-SwiftUsage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FL8MZ4CH2;
 				INFOPLIST_FILE = SwiftUsage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
